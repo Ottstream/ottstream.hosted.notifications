@@ -1,0 +1,28 @@
+{
+  "name": "object-to-associative-array",
+  "version": "0.0.1",
+  "description": "Converts an object to array of object with {key:value} pair like PHP associative array",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Halum/object-to-associative-array.git"
+  },
+  "keywords": [
+    "object-to-array",
+    "associative-array",
+    "php-associative-array",
+    "to-array"
+  ],
+  "author": "Sajjad Hossain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Halum/object-to-associative-array/issues"
+  },
+  "homepage": "https://github.com/Halum/object-to-associative-array#readme"
+}

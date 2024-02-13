@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="147" height="91" viewBox="0 0 147 91">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="0.999" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.04" stop-color="#07d3e8"/>
+      <stop offset="0.54" stop-color="#09899a"/>
+      <stop offset="1" stop-color="#15486b"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo" transform="translate(-134 -157)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(185.775 157)">
+      <g id="Layer_1" data-name="Layer 1">
+        <path id="Path_1660" data-name="Path 1660" d="M24.95,0V6.743A15.509,15.509,0,0,1,37.465,27.849l5.894,3.412a21.666,21.666,0,0,0,2.023-9.083A22.461,22.461,0,0,0,24.95,0ZM22.677,37.822A15.6,15.6,0,0,1,20.4,6.743V0A22.428,22.428,0,0,0,0,22.2,22.463,22.463,0,0,0,22.65,44.5a22.738,22.738,0,0,0,18.281-9.117l-5.867-3.412a15.853,15.853,0,0,1-12.387,5.846Z" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <text id="Ottstream" transform="translate(134 240)" fill="#164066" font-size="31" font-family="JosefinSans-SemiBold, Josefin Sans" font-weight="600"><tspan x="0" y="0">Ottstream</tspan></text>
+  </g>
+</svg>

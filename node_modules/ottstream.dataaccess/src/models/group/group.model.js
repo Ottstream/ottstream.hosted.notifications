@@ -1,0 +1,38 @@
+const mongoose = require('mongoose');
+const { toJSON, paginate } = require('../plugins');
+const translationSchema = require('../translation.model');
+
+// eslint-disable-next-line no-unused-vars
+const { Schema } = mongoose;
+
+const groupSchema = mongoose.Schema(
+  {
+    middlewareId: {
+      // depending on payment state this variable is changed so we know invoice is payed
+      type: Number,
+      required: false,
+    },
+    name: [translationSchema],
+    channels: [{ type: Number }],
+    color: {
+      // needed to know to send invoice with right date (will be updated while unpausing)
+      type: String,
+      required: false,
+    },
+    provider: { type: Schema.Types.ObjectId, ref: 'OttProvider' },
+    user: { type: Schema.Types.ObjectId, ref: 'User' },
+  },
+  {
+    timestamps: true,
+  }
+);
+// add plugin that converts mongoose to json
+groupSchema.plugin(toJSON);
+groupSchema.plugin(paginate);
+
+/**
+ * @typedef groupSchema
+ */
+const Group = mongoose.model('Group', groupSchema, 'groups');
+
+module.exports = Group;
